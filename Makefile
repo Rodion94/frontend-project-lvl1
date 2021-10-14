@@ -1,1 +1,1 @@
-make start
+install: npm ci
