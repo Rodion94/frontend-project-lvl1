@@ -5,4 +5,5 @@
 [![Actions Status](https://github.com/Rodion94/lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Rodion94/lvl1/actions)
 
 Example of work Brain-even:
-https://asciinema.org/connect/a1364313-2a07-436c-8003-73e1614c4ff4
+
+<script src="https://asciinema.org/connect/a1364313-2a07-436c-8003-73e1614c4ff4" id="asciicast-14" async></script>
