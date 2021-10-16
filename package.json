@@ -20,7 +20,8 @@
     "url": "https://github.com/Rodion94/lvl1/issues"
   },
   "homepage": "https://github.com/Rodion94/lvl1#readme",
-  "dependencies":{
+  "dependencies": {
+    "eslint-plugin-import": "^2.25.2",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
