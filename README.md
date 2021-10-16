@@ -6,4 +6,4 @@
 
 Example of work Brain-even:
 
-<script id="asciicast-BCFtJ1oYLSJAwPZMeeBhAXUdW" src="https://asciinema.org/a/BCFtJ1oYLSJAwPZMeeBhAXUdW.js" async></script>
+[![asciicast](https://asciinema.org/a/BCFtJ1oYLSJAwPZMeeBhAXUdW.svg)](https://asciinema.org/a/BCFtJ1oYLSJAwPZMeeBhAXUdW)
