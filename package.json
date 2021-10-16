@@ -20,6 +20,9 @@
     "url": "https://github.com/Rodion94/lvl1/issues"
   },
   "homepage": "https://github.com/Rodion94/lvl1#readme",
+  "dependencies":{
+    "readline-sync": "^1.4.10"
+  },
   "devDependencies": {
     "make": "^0.8.1"
   }
