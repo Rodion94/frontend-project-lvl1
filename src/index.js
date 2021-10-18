@@ -1,4 +1,4 @@
-import readlineSync from 'redline-sync';
+import readlineSync from 'readline-sync';
 
 const newGame = (gameQuestion, gameQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
