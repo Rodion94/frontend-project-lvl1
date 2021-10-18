@@ -18,12 +18,14 @@ const arithmetic = (num1, num2, operator) => {
   return result;
 };
 const gameQuestion = 'What is the result of expression?';
+
 const operators = ['+', '-', '*'];
+
 const gameQuestionAnswer = () =>{
   const randomNumberOfOperator = Math.floor(Math.random() * 3);
   const randomNumberFirst = Math.floor(Math.random() * 100);
   const randomNumberSecond = Math.floor(Math.random() * 100);
-  const question = `${randomNumberFirst} ${randomNumberOfOperator} ${randomNumberSecond}`;
+  const question = `${randomNumberFirst} ${operators[randomNumberOfOperator]} ${randomNumberSecond}`;
   const answer = String(arithmetic(randomNumberFirst, randomNumberSecond, operators[randomNumberOfOperator]));
   return [question, answer];
 };
