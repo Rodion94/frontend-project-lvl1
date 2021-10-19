@@ -15,7 +15,7 @@ const gameQuestionAnswer =() => {
   const question = `${randomNumberFirst} ${randomNumberSecond}`;
   const answer = String(gCD(randomNumberFirst, randomNumberSecond));
 
-  retirn [question, answer];
+  return [question, answer];
 };
 
 const brainGCD = () => newGame(gameQuestion, gameQuestionAnswer);
