@@ -11,3 +11,7 @@ Example of work Brain-even:
 Example of work Brain-calc:
 
 [![asciicast](https://asciinema.org/a/bNphaPavHbNtxHDaOb495rNY9.svg)](https://asciinema.org/a/bNphaPavHbNtxHDaOb495rNY9)
+
+Example of work Brain-gcd:
+
+[![asciicast](https://asciinema.org/a/ad0s86vUNeQQAmAZsxz0cbk28.svg)](https://asciinema.org/a/ad0s86vUNeQQAmAZsxz0cbk28)
