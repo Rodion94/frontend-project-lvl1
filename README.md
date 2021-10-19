@@ -7,3 +7,7 @@
 Example of work Brain-even:
 
 [![asciicast](https://asciinema.org/a/BCFtJ1oYLSJAwPZMeeBhAXUdW.svg)](https://asciinema.org/a/BCFtJ1oYLSJAwPZMeeBhAXUdW)
+
+Example of work Brain-calc:
+
+[![asciicast](https://asciinema.org/a/bNphaPavHbNtxHDaOb495rNY9.svg)](https://asciinema.org/a/bNphaPavHbNtxHDaOb495rNY9)
