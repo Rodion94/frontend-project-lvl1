@@ -15,3 +15,7 @@ Example of work Brain-calc:
 Example of work Brain-gcd:
 
 [![asciicast](https://asciinema.org/a/ad0s86vUNeQQAmAZsxz0cbk28.svg)](https://asciinema.org/a/ad0s86vUNeQQAmAZsxz0cbk28)
+
+Example of work Brain-progression:
+
+[![asciicast](https://asciinema.org/a/tIKJXIvO4ata9kITmv1cqRqL2.svg)](https://asciinema.org/a/tIKJXIvO4ata9kITmv1cqRqL2)
