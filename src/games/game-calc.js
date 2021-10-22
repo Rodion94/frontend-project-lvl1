@@ -23,10 +23,10 @@ const operators = ['+', '-', '*'];
 
 const gameQuestionAnswer = () => {
   const randomNumberOfOperator = Math.floor(Math.random() * 3);
-  const randomNumber1 = Math.floor(Math.random() * 100);
-  const randomNumber2 = Math.floor(Math.random() * 100);
-  const question = `${randomNumber1} ${operators[randomNumberOfOperator]} ${randomNumber2}`;
-  const answer = String(arithmetic(randomNumber1, randomNumber2, operators[randomNumberOfOperator]));
+  const randomNum1 = Math.floor(Math.random() * 100);
+  const randomNum2 = Math.floor(Math.random() * 100);
+  const question = `${randomNum1} ${operators[randomNumberOfOperator]} ${randomNum2}`;
+  const answer = String(arithmetic(randomNum1, randomNum2, operators[randomNumberOfOperator]));
   return [question, answer];
 };
 
