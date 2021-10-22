@@ -19,8 +19,8 @@ const even = () => {
       console.log('Correct!');
       count += 1;
     } else {
-      console.log('your answer is wrong.');
-      console.log(`Let's try again, ${userName}`);
+      console.log("'yes' is wrong answer ;( Correct answer was 'no').");
+      console.log(`Let's try again, ${userName}!`);
       break;
     }
   } while (count < 3);
