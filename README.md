@@ -4,7 +4,7 @@
 
 [![Actions Status](https://github.com/Rodion94/lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Rodion94/lvl1/actions)
 
-Hexlet "Brain-Games"
+<h1>Hexlet "Brain-Games"</h1><br>
 Для установки необходимо сделать:
 Скачать и установить Node.js.
 Набрать в терминале команду make install, которая установит все необходимые зависимости.
