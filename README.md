@@ -19,3 +19,7 @@ Example of work Brain-gcd:
 Example of work Brain-progression:
 
 [![asciicast](https://asciinema.org/a/tIKJXIvO4ata9kITmv1cqRqL2.svg)](https://asciinema.org/a/tIKJXIvO4ata9kITmv1cqRqL2)
+
+Example of work Brain-prime:
+
+[![asciicast](https://asciinema.org/a/3k2Pf8UdOJPsHC9ZIyiFakVw8.svg)](https://asciinema.org/a/3k2Pf8UdOJPsHC9ZIyiFakVw8)
