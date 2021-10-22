@@ -15,7 +15,7 @@ const newGame = (gameQuestion, gameQuestionAnswer) => {
       return console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${answer}.\nLet's try again, ${name})`);
     }
   }
-  return console.log(`Congratulations, ${name}`);
+  return console.log(`Congratulations, ${name}!`);
 };
 
 export default newGame;
