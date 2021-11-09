@@ -9,7 +9,7 @@ const gCD = (num1, num2) => {
   return gCD(num2, num1 % num2);
 };
 
-const gameQuestionAnswer = () => {
+const getGameQuestionAnswer = () => {
   const randomNumberFirst = Math.floor(Math.random() * 100);
   const randomNumberSecond = Math.floor(Math.random() * 100);
   const question = `${randomNumberFirst} ${randomNumberSecond}`;
@@ -18,6 +18,6 @@ const gameQuestionAnswer = () => {
   return [question, answer];
 };
 
-const brainGCD = () => newGame(gameQuestion, gameQuestionAnswer);
+const brainGCD = () => newGame(gameQuestion, getGameQuestionAnswer);
 
 export default brainGCD;

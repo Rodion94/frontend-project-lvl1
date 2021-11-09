@@ -13,13 +13,13 @@ const isPrime = (num) => {
 };
 
 const gameQuestion = 'Answer "yes" if given number is prime. Otherwise answer "no"';
-const gameQuestionAnswer = () => {
+const getGameQuestionAnswer = () => {
   const maxNumForRandomNumber = 100;
   const randomNumber = Math.floor(Math.random() * maxNumForRandomNumber);
   const question = `${randomNumber}`;
   const answer = isPrime(randomNumber) ? 'yes' : 'no';
   return [question, answer];
 };
-const brainPrime = () => newGame(gameQuestion, gameQuestionAnswer);
+const brainPrime = () => newGame(gameQuestion, getGameQuestionAnswer);
 
 export default brainPrime;

@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<a href="https://codeclimate.com/github/Rodion94/lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/5174f8fd3150b4bf2fde/maintainability" /></a>
 
 [![Actions Status](https://github.com/Rodion94/lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Rodion94/lvl1/actions)
 
