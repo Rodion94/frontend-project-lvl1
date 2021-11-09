@@ -24,11 +24,12 @@ const gameQuestion = 'What is the result of expression?';
 const operators = ['+', '-', '*'];
 
 const getGameQuestionAnswer = () => {
-  const randomNumberOfOperator = getRandom(0, 3);
+  const randomNumberOfOperator = getRandom(0, operators.length - 1);
+  const sign = operators[randomNumberOfOperator];
   const randomNum1 = getRandom(0, 100);
   const randomNum2 = getRandom(0, 100);
-  const question = `${randomNum1} ${operators[randomNumberOfOperator]} ${randomNum2}`;
-  const answer = String(arithmetic(randomNum1, randomNum2, operators[randomNumberOfOperator]));
+  const question = `${randomNum1} ${sign} ${randomNum2}`;
+  const answer = String(arithmetic(randomNum1, randomNum2, sign));
   return [question, answer];
 };
 
