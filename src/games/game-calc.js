@@ -1,7 +1,7 @@
 import newGame from '../index.js';
 import getRandom from '../random.js';
 
-const arithmetic = (num1, num2, operator) => {
+const calculation = (num1, num2, operator) => {
   let result = 0;
   switch (operator) {
     case '+':
@@ -29,7 +29,7 @@ const getGameQuestionAnswer = () => {
   const randomNum1 = getRandom(0, 100);
   const randomNum2 = getRandom(0, 100);
   const question = `${randomNum1} ${sign} ${randomNum2}`;
-  const answer = String(arithmetic(randomNum1, randomNum2, sign));
+  const answer = String(calculation(randomNum1, randomNum2, sign));
   return [question, answer];
 };
 
