@@ -13,10 +13,11 @@ const newGame = (gameQuestion, getGameQuestionAnswer) => {
     if (yourAnswer === answer) {
       console.log('Correct');
     } else {
-      return console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${answer}.\nLet's try again, ${name}!`);
+      console.log(`${yourAnswer} is wrong answer ;(. Correct answer was ${answer}.\nLet's try again, ${name}!`);
+      return;
     }
   }
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default newGame;
